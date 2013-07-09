@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>SP</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="css/common.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.7.min.js" type="text/javascript"></script>
+  <script src="js/angular.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="header-wrapper">
+    <div id="header">
+      Logo
+    </div>
+  </div>
+  
+  <div id="outer">
+    <div id="alerts" class="alert alert-block alert-error">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      testing alerts
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row-fluid clear-small">
+        
+        <div class="span3">
+          <div class="well ">
+            <table cellpadding="5">
+              <tr>
+                <td><div class="crop-image-large img-polaroid" style="background-image: url('images/profile.png');"></div></td>
+                <td valign="top"><h5>Username</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2"><a href="#"><small>View Settings</small></a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        
+        <div class="span9">
+          <div class="well bg-clear">
+            <h2>NFL</h2>
+            <table cellpadding="10">
+              <tr>
+                <td><strong>20</strong><br/>Picks</td>
+                <td><strong>7</strong><br/>Wins</td>
+                <td><strong>3</strong><br/>Pending</td>
+              </tr>
+            </table>
+            
+            <br/>
+            
+            <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Week 1</a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    
+                    <h4>Monday, July 8th, 2013</h4>
+                    <table class="table table-bordered">
+                      <tr class="selected">
+                        <td width="100px;"></td>
+                        <td>Baltimore Ravens</td>
+                        <td width="200px;"><input type="checkbox" id="chk" name="chk" checked /></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Denver Broncos</td>
+                        <td><input type="checkbox" /></td>
+                      </tr>
+                    </table>
+                    
+                    <table class="table table-bordered">
+                      <tr>
+                        <td width="100px;"></td>
+                        <td >San Francisco 49ers</td>
+                        <td width="200px;"><input type="checkbox" /></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Atlanta Falcons</td>
+                        <td><input type="checkbox" /></td>
+                      </tr>
+                    </table>
+                  
+                  </div>
+                  </div>
+              </div>
+              
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                    Week 2
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <h4>Monday, July 15th, 2013</h4>
+                    <table class="table table-bordered">
+                      <tr>
+                        <td width="100px;"></td>
+                        <td>Baltimore Ravens</td>
+                        <td width="200px;"><input type="checkbox" /></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Denver Broncos</td>
+                        <td><input type="checkbox" /></td>
+                      </tr>
+                    </table>
+                    <table class="table table-bordered">
+                      <tr>
+                        <td width="100px;"></td>
+                        <td >San Francisco 49ers</td>
+                        <td width="200px;"><input type="checkbox" /></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Atlanta Falcons</td>
+                        <td><input type="checkbox" /></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="footer-wrapper">
+  <div id="footer">
+    <small>&copy; 2013</small>
+  </div>
+</div>
+
+</body>
+
+ 
+</html>

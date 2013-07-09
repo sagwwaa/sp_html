@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>SP</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="css/common.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.7.min.js" type="text/javascript"></script>
+  <script src="js/angular.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="#" class="logo">Logo</a>
+    </div>
+  </div>
+  
+ <div id="outer">
+    <div id="alerts" class="alert alert-block alert-error">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      testing alerts
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid clear-small">
+        
+        
+        
+        <div class="span3">
+          <div class="well well-small">
+            <table cellpadding="5">
+              <tr>
+                <td><div class="crop-image-small img-polaroid" style="background-image: url('images/profile.png');"></div></td>
+                <td valign="top"><h5>Username</h5></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        
+        <div class="span9">
+          <div class="well bg-clear">
+            <h4>Icon</h4>
+            <div class="crop-image-large img-polaroid" style="background-image: url('images/profile.png');"></div>
+            <input type="file" id="file_icon" name="file_icon" />
+          </div>
+          <div class="well bg-clear">
+            <h4>Edit Profile</h4>
+            <input type="text" id="profile_username" name="profile_username" placeholder="Username" /><br/>
+            <input type="text" id="profile_email" name="profile_email" placeholder="Email" />
+          </div>
+          <div class="well bg-clear">
+            <h4>Change Password</h4>
+            
+            <input type="password" id="change_password_new" name="change_password_new" placeholder="New Password" /><br/>
+            <input type="password" id="change_password_confirm" name="change_password_confirm" placeholder="Confirm Password" />
+          </div>
+          
+          <table>
+            <tr>
+              <td></td>
+              
+            </tr>
+          </table>
+          
+          <input type="button" class="btn" value="Save changes" />
+          <br/><br/>
+        </div>
+        
+      </div>
+    </div>
+  
+    
+  </div>
+
+<div id="footer-wrapper">
+  <div id="footer">
+    <small>&copy; 2013</small>
+  </div>
+</div>
+</body>
+
+ 
+</html>
